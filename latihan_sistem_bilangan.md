@@ -1,5 +1,5 @@
 ```markdown
-# SisOp-2025  
+SisOp-2025  
 **LATIHAN SISTEM BILANGAN SISTEM OPERASI**  
 
 **Nama**: Yosiyanti Cendekia Sari  
