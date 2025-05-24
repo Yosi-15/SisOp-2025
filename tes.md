@@ -7,31 +7,6 @@ Ini adalah contoh file README.md.
 - [Bagian 1](#bagian-1)
 - [Bagian 2](#bagian-2)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Bagian 1
 Ini adalah bagian pertama.
 
