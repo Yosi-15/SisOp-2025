@@ -12,6 +12,6 @@ Ini adalah bagian pertama.
 
 # Bagian 2
 Ini adalah bagian kedua.
-```
+'''
 ini hanyalah coba - coba
----
+'''
