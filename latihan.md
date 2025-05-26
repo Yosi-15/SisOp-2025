@@ -13,7 +13,7 @@ LATIHAN
 
 2. Konversikan bilangan desimal di bawah ini ke dalam bilangan biner
    ```
-   a. 1234<sub --> 1234	:  2  =  617  sisa  0 
+   a. 1234<sub>10</sub> --> 1234	:  2  =  617  sisa  0 
 		                         617	:  2  =  308  sisa  1
 		                         308	:  2  =  154  sisa  0
 		                         154	:  2  =  77   sisa  0
