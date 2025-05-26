@@ -494,4 +494,3 @@ P1         0     7    16    16     9
 **Rata-Rata:**
 - Turnaround Time (TAT): (1+5+6+16)/4 = 7.0
 - Waiting Time (WT): (0+1+2+9)/4 = 3.0
-```
