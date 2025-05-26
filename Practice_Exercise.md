@@ -1,4 +1,4 @@
-**Nama:** Yosiyanti Cendekia Sari 
+**Nama:** Yosiyanti Cendekia Sari
 **NRP:** 3124500059 
 **Kelas:** D3 IT B  
 
