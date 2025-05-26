@@ -1,8 +1,6 @@
-# Tugas 2 OS_Week 2
-
-**Nama:** Dinda Diyah Arifa  
-**NRP:** 3124500034  
-**Kelas:** 1 D3 IT B  
+**Nama:** Yosiyanti Cendekia Sari 
+**NRP:** 3124500059 
+**Kelas:** D3 IT B  
 
 ## Practice Exercises
 
