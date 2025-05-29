@@ -1,16 +1,16 @@
-## LATIHAN SISTEM BILANGAN SISTEM OPERASI  
+LATIHAN SISTEM BILANGAN SISTEM OPERASI  
 
 Nama : Yosiyanti Cendekia Sari NRP : 3124500059  
 Kelas : D3 IT-B  
 Dosen Pengajar : Dr Ferry Astika Saputra ST, M.Sc  
 
-## PROGRAM STUDI D3 TEKNIK INFORMATIKA POLITEKNIK ELEKTRONIKA NEGERI SURABAYA (PENS) TAHUN 2024
+PROGRAM STUDI D3 TEKNIK INFORMATIKA POLITEKNIK ELEKTRONIKA NEGERI SURABAYA (PENS) TAHUN 2024
 
 ---
 # LATIHAN
 ---
-1. a. Bilangan biner adalah bilangan yang berbasis dua <br>
-   b. Bilangan heksadesimal adalah bilangan yang berbasis enam belas
+## 1. a. Bilangan biner adalah bilangan yang berbasis dua <br>
+##    b. Bilangan heksadesimal adalah bilangan yang berbasis enam belas
 ---
 2. Konversikan bilangan desimal di bawah ini ke dalam bilangan biner
    
