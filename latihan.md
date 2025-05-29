@@ -5,12 +5,11 @@ Kelas : D3 IT-B
  Dosen Pengajar : Dr Ferry Astika Saputra ST, M.Sc
 
 PROGRAM STUDI D3 TEKNIK INFORMATIKA POLITEKNIK ELEKTRONIKA NEGERI SURABAYA (PENS) TAHUN 2024
-
-H<sub>2</sub>O
+---
 LATIHAN
 1. a. Bilangan biner adalah bilangan yang berbasis dua
    b. Bilangan heksadesimal adalah bilangan yang berbasis enam belas
-
+---
 2. Konversikan bilangan desimal di bawah ini ke dalam bilangan biner
    ```
    a. 1234₁₀ --> 1234	:  2  =  617  sisa  0 
@@ -40,6 +39,7 @@ LATIHAN
 		  2	:  2  =  1     sisa  0
 		  1	:  2  =  0     sisa  1
    ```
+   ```
    c. 2321₁₀   -->   2321	:  2  =  1160  sisa  1 
 		  1160	:  2  =  580    sisa  0	
 		  580	:  2  =  290    sisa  0		
@@ -53,7 +53,7 @@ LATIHAN
 		  2	:  2  =  1        sisa  0
 		  1	:  2  =  0        sisa  1
    ```
-
+   ---
 4. Konversikan bilangan biner di bawah ini ke dalam bilangan desimal
    ```
    a. 10101010 --> 0 . 20 = 0 . 1 = 0
