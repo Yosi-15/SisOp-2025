@@ -14,7 +14,7 @@ PROGRAM STUDI D3 TEKNIK INFORMATIKA POLITEKNIK ELEKTRONIKA NEGERI SURABAYA (PENS
       b. Bilangan heksadesimal adalah bilangan yang berbasis enam belas
    
 ---
-2. Konversikan bilangan desimal di bawah ini ke dalam bilangan biner
+## 2. Konversikan bilangan desimal di bawah ini ke dalam bilangan biner
    
    ```
    a. 1234₁₀ --> 1234	:  2  =  617  sisa  0 
