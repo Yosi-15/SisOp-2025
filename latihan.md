@@ -104,8 +104,8 @@ PROGRAM STUDI D3 TEKNIK INFORMATIKA POLITEKNIK ELEKTRONIKA NEGERI SURABAYA (PENS
    		   0 . 2⁷ = 0 . 128 = 0
    		   Total: 1 + 2 + 4 + 8 + 16 + 0 + 0 + 0 = 159
    ```
-
-4.Konversikan bilangan biner di bawah ini ke dalam bilangan oktal
+   ---
+## 4.Konversikan bilangan biner di bawah ini ke dalam bilangan oktal
 a.1 0 1 0 1 1 1 1 1 0 0 12  
 Mengelompokkan menjadi 3 digit = 101 011 111 001
 101 = 5
