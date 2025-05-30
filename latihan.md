@@ -59,7 +59,7 @@ PROGRAM STUDI D3 TEKNIK INFORMATIKA POLITEKNIK ELEKTRONIKA NEGERI SURABAYA (PENS
 		  1	:  2  =  0        sisa  1
    ```
    ---
-4. Konversikan bilangan biner di bawah ini ke dalam bilangan desimal
+3. Konversikan bilangan biner di bawah ini ke dalam bilangan desimal
    ```
    a. 10101010 --> 0 . 20 = 0 . 1 = 0
 	           1 . 21 = 1 . 2 = 2
