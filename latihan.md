@@ -13,6 +13,7 @@ PROGRAM STUDI D3 TEKNIK INFORMATIKA POLITEKNIK ELEKTRONIKA NEGERI SURABAYA (PENS
 
    a. Bilangan biner adalah bilangan yang berbasis dua <br>
    b. Bilangan heksadesimal adalah bilangan yang berbasis enam belas
+   
 ---
 2. Konversikan bilangan desimal di bawah ini ke dalam bilangan biner
    
