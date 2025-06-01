@@ -65,7 +65,8 @@ The distinction between kernel mode and user mode provides a rudimentary form of
 - Turn off interrupts.  
 - Modify entries in device-status table.  
 - Switch from user to kernel mode.  
-- Access I/O device.  
+- Access I/O device.
+  
 **Answer:**  
 The instructions that should be privileged are:
 - **Issue a trap instruction:** Used to request services from the OS.
