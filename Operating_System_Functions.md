@@ -1,3 +1,8 @@
+Nama  : Yosiyanti Cendekia Sari  
+NRP   : 3124500059  
+Kelas : 1 D3 IT B  
+Dosen Pengampu : Dr Ferry Astika Saputra ST, M.Sc
+
 ## Functions of an Operating System (OS)
 
 An **Operating System (OS)** is the software that **controls the hardware** and acts as a **bridge between user-level applications and low-level machine code**. It ensures efficient, secure, and user-friendly computing by managing both system resources and user programs.
