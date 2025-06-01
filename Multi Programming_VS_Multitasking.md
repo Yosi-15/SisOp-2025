@@ -1,4 +1,7 @@
-
+Nama  : Yosiyanti Cendekia Sari  
+NRP   : 3124500059  
+Kelas : 1 D3 IT B  
+Dosen Pengampu : Dr Ferry Astika Saputra ST, M.Sc
 
 ---
 
