@@ -270,7 +270,7 @@ Dosen Pengampu :
 <br/>
 <br/>
 
-# Operating System Concepts, 10th Edition (Silberschatz, 2018)
+# Rangkuman Operating System Concepts, 10th Edition (Silberschatz, 2018)
 ---
 
 ## 1. Pendahuluan Sistem Operasi
