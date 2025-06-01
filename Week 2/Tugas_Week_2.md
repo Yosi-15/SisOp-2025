@@ -1,6 +1,7 @@
-**Nama:** Yosiyanti Cendekia Sari  
-**NRP:** 3124500059   
-**Kelas:** 1 D3 IT B  
+Nama: Yosiyanti Cendekia Sari  
+NRP: 3124500059   
+Kelas: 1 D3 IT B  
+Dosen Pengajar: Dr Ferry Astika Saputra ST, M.Sc
 
 ## Chapter 1 - Practice Exercises
 
