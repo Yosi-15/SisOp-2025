@@ -3,6 +3,268 @@ NRP   : 3124500059
 Kelas : 1 D3 IT B  
 Dosen Pengampu : 
 
+# Summary of Operating System Concepts, 10th Edition (Silberschatz, 2018)
+---
+
+### 1. **Introduction to Operating Systems**
+
+* **Definition & Purpose**: An operating system (OS) is a software layer responsible for managing hardware, providing an interface for users and applications, and ensuring secure and efficient program execution.
+* **History & Evolution**: Originated from simple batch OS in the 1950s–60s, evolving into time-sharing (multi-user), real-time, distributed, and eventually cloud/virtualized systems in the 21st century.
+
+---
+
+### 2. **Basic OS Structures and Mechanisms**
+
+* **Architectures**:
+
+  * *Monolithic*: All core services (scheduling, memory, I/O) integrated into one large kernel.
+  * *Layered*: OS divided into levels—from low-level hardware interaction to high-level application services.
+  * *Microkernel*: Only essential functions (e.g., IPC, scheduling) in kernel; others (drivers, file system) in user space.
+
+* **System Calls & APIs**: Applications communicate with the OS via system calls (e.g., `fork()`, `read()`, `write()`), which are processed by the kernel.
+
+* **Execution Modes**: Processes can run in *user mode* (restricted access) or *kernel mode* (full access), switching through interrupts, traps, or system calls.
+
+---
+
+### 3. **Processes and Threads**
+
+* **Process**: Represents a running program with its own PID, memory space (code, data, stack), CPU registers, and states.
+
+* **Process Life-Cycle**:
+
+  1. *New*
+  2. *Ready*
+  3. *Running*
+  4. *Waiting*
+  5. *Terminated*
+
+* **Threads**: Lightweight units of execution within a process, sharing memory space. Threads improve concurrency and CPU efficiency, especially in multiprocessor systems.
+
+* **Thread Models**:
+
+  * *User-Level Threads*: Managed in user space; fast context switch but limited CPU utilization.
+  * *Kernel-Level Threads*: Managed by kernel; supports multi-core execution but slower switching.
+  * *Hybrid Model*: Maps multiple user threads to kernel threads for flexibility.
+
+---
+
+### 4. **CPU Scheduling**
+
+* **Goals**: Maximize throughput, minimize turnaround/waiting time, improve responsiveness.
+
+* **Core Algorithms**:
+
+  * *FCFS*: First-Come, First-Served.
+  * *SJF*: Shortest Job First.
+  * *Priority Scheduling*: With preemption or not; risks starvation.
+  * *Round Robin*: Equal time quantum per process (e.g., 10ms).
+  * *Multilevel Queue & Feedback*: Separate queues for I/O-bound and CPU-bound processes.
+
+* **Metrics**:
+
+  * *Turnaround Time*
+  * *Waiting Time*
+  * *Response Time*
+  * *CPU Utilization*
+
+---
+
+### 5. **Process Synchronization**
+
+* **Critical Section Problem**: Multiple processes/threads accessing shared resources need *mutual exclusion*.
+
+* **Solution Conditions**:
+
+  1. *Mutual Exclusion*
+  2. *Progress*
+  3. *Bounded Waiting*
+
+* **Mechanisms**:
+
+  * *Peterson’s Algorithm*: For two processes.
+  * *Hardware Locks*: Test-and-Set, Compare-and-Swap.
+  * *Semaphores*: Integer-based, supporting `wait()` and `signal()` for mutual exclusion/synchronization.
+  * *Monitors*: High-level abstraction with condition variables (`wait`/`signal`).
+
+---
+
+### 6. **Deadlock**
+
+* **Definition**: A situation where two or more processes wait on each other indefinitely.
+
+* **Coffman Conditions**:
+
+  1. Mutual Exclusion
+  2. Hold and Wait
+  3. No Preemption
+  4. Circular Wait
+
+* **Handling**:
+
+  * *Prevention*: Break one condition.
+  * *Avoidance*: Use Banker’s Algorithm.
+  * *Detection & Recovery*: Use resource allocation graph, abort or preempt processes.
+
+---
+
+### 7. **Memory Management**
+
+* **Goal**: Efficient RAM use, process isolation, virtual memory support.
+
+* **Contiguous Allocation**:
+
+  * *Fixed Partitioning*
+  * *Dynamic Partitioning*
+  * Fit strategies: First Fit, Best Fit, Worst Fit
+
+* **Paging**:
+
+  * Divides memory into *frames* and virtual memory into *pages*.
+  * Uses page tables and TLB for address translation.
+
+* **Segmentation**: Logical segments (code, data, stack), each with base and limit.
+
+* **Virtual Memory**:
+
+  * Partial program loaded into RAM, rest on disk.
+  * *Demand Paging*: Loads page on access.
+  * *Page Replacement Algorithms*: FIFO, LRU, Optimal, Clock.
+  * *Thrashing*: Excessive swapping reduces performance.
+
+---
+
+### 8. **File System**
+
+* **Basic Concept**: Manages data storage and organization on disk.
+
+* **File Abstraction**: Access via file descriptors; operations include `open`, `read`, `write`, `close`, `seek`.
+
+* **Directory Structures**:
+
+  * Single-Level, Two-Level, Hierarchical (tree)
+
+* **File Allocation**:
+
+  * *Contiguous*, *Linked*, *Indexed*
+
+* **Free Space Management**:
+
+  * Bit Vectors, Linked Lists, Grouping
+
+* **Modern Filesystems**:
+
+  * *Journaling*: (e.g., ext4, NTFS)
+  * *Log-Structured*: Log-like writes, garbage collection needed
+
+---
+
+### 9. **Secondary Storage Management**
+
+* **Disk Structure**: Platters, tracks, sectors, cylinders
+
+* **Disk Scheduling Algorithms**:
+
+  * FCFS, SSTF, SCAN, C-SCAN
+
+* **RAID Levels**:
+
+  * *RAID 0*: Striping (no redundancy)
+  * *RAID 1*: Mirroring
+  * *RAID 5/6*: Striping with parity (fault tolerance)
+
+---
+
+### 10. **I/O Systems**
+
+* **I/O Stack**: Devices → Drivers → OS (buffering, spooling) → User programs
+
+* **Techniques**:
+
+  * *Programmed I/O*
+  * *Interrupt-Driven I/O*
+  * *DMA (Direct Memory Access)*
+
+* **Device Types**: Character vs. Block devices
+
+* **Optimizations**: Buffering, caching
+
+---
+
+### 11. **Security and Protection**
+
+* **Protection**: Ensures processes/users only access permitted resources.
+
+  * *Access Matrix*, *Access Lists*, *Capability Lists*
+
+* **Security**: Protects system from internal and external threats.
+
+  * *Physical Security*
+  * *Network Security*: Firewalls, encryption, IDS/IPS
+  * *Authentication & Authorization*: Passwords, biometrics, tokens
+  * *Cryptography*: Symmetric (AES), Asymmetric (RSA, ECC)
+  * *Kernel Security*: TCB (Trusted Computing Base), auditing/logging
+
+---
+
+### 12. **Case Studies of Real Operating Systems**
+
+* **UNIX/Linux**:
+
+  * Philosophy: "Everything is a file"
+  * Monolithic kernel with dynamically loaded modules
+  * Features: Process management, VFS, ext4/XFS, networking
+
+* **Windows NT**:
+
+  * Hybrid kernel
+  * Components: Executive Layer, Kernel Mode, HAL
+  * NTFS with journaling and security features (ACL, EFS)
+
+* **Others (Android, macOS)**:
+
+  * *Android*: Linux-based, ART runtime, Java/Kotlin framework
+  * *macOS*: XNU kernel (FreeBSD + Mach), HFS+/APFS, Cocoa APIs
+
+---
+
+### 13. **Advanced Topics**
+
+* **Virtualization**:
+
+  * Type 1 (Bare-metal): VMware ESXi, Xen
+  * Type 2 (Hosted): VirtualBox, VMware Workstation
+  * Full, para-virtualization, containers (e.g., Docker)
+
+* **Cloud OS**:
+
+  * Must support scaling, VM migration, fault tolerance
+  * Models: IaaS, PaaS (e.g., AWS EC2, GCP)
+
+* **Real-Time OS**:
+
+  * *Hard vs Soft Real-Time*
+  * Examples: FreeRTOS, VxWorks
+  * Scheduling: Rate Monotonic, Earliest Deadline First
+
+* **Mobile & IoT OS**:
+
+  * Constraints: power, CPU, memory
+  * Android/iOS use adapted kernels with power management
+  * Custom RTOS for microcontrollers: Zephyr, ARM Mbed OS
+
+* **Advanced Security**:
+
+  * *Trusted Execution Environment (TEE)*: Intel SGX, ARM TrustZone
+  * *Sandboxing*: Browser, mobile apps
+
+---
+
+### ✅ **Conclusion**
+
+*Operating System Concepts* (10th Edition) explores all essential areas of operating systems—from foundational theories to modern implementations.
+
+
 # Operating System Concepts, 10th Edition (Silberschatz, 2018)
 ---
 
