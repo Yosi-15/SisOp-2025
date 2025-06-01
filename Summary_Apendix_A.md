@@ -260,9 +260,12 @@ Dosen Pengampu :
 
 ---
 
-### ✅ **Conclusion**
+### **Conclusion**
 
 *Operating System Concepts* (10th Edition) explores all essential areas of operating systems—from foundational theories to modern implementations.
+
+
+
 
 
 # Operating System Concepts, 10th Edition (Silberschatz, 2018)
@@ -273,6 +276,7 @@ Dosen Pengampu :
 * **Definisi & Tujuan**: Sistem operasi (OS) adalah lapisan perangkat lunak yang bertugas mengelola perangkat keras, menyediakan antarmuka bagi pengguna dan aplikasi, serta menjamin keamanan dan efisiensi eksekusi program.
 * **Sejarah & Evolusi**: Berawal dari OS sederhana pada mesin batch di era 1950–1960, berkembang ke sistem time-sharing (multi‐user), real-time, terdistribusi, dan lalu ke virtualisasi/cloud di abad 21.
 
+---
 ## 2. Struktur dan Mekanisme Dasar OS
 
 * **Arsitektur Monolitik vs. Berlapis vs. Mikro-kernel**:
@@ -285,6 +289,7 @@ Dosen Pengampu :
 * **Mode Eksekusi**:
   Proses dapat berjalan dalam *user mode* (akses terbatas) atau *kernel mode* (akses penuh). Berpindah terjadi saat terjadi interrupt, trap, atau sistem call.
 
+---
 ## 3. Proses dan Thread
 
 * **Proses (Process)**:
@@ -304,6 +309,7 @@ Dosen Pengampu :
   * *Kernel-level Threads*: Dikelola oleh kernel, dapat dipetakan ke beberapa CPU, switching lebih mahal (context switch kernel).
   * *Hybrid Model*: Kombinasi, beberapa user thread dipetakan ke beberapa kernel thread.
 
+---
 ## 4. Penjadwalan CPU (CPU Scheduling)
 
 * **Tujuan Penjadwalan**:
@@ -322,6 +328,7 @@ Dosen Pengampu :
   * *Response Time*: Waktu dari submit hingga output pertama (penting di sistem interaktif).
   * *Utilization*: Persentase waktu CPU bekerja (ideal mendekati 100%).
 
+---
 ## 5. Sinkronisasi Proses (Process Synchronization)
 
 * **Masalah Critical Section**:
@@ -338,6 +345,7 @@ Dosen Pengampu :
   * *Semaphore*: Variabel integer yang atomik: `wait()` (P) dan `signal()` (V). Mendukung mutual exclusion (semaphore biner) dan sinkronisasi (semaphore penghitung).
   * *Monitors*: Abstraksi tingkat tinggi yang menggabungkan variabel bersama dan prosedur terproteksi; garansi mutual exclusion dan kondisi sinkronisasi lewat *condition variables* (wait/signal).
 
+---
 ## 6. Deadlock
 
 * **Definisi**:
@@ -357,6 +365,7 @@ Dosen Pengampu :
     * *Abort* proses tertentu (satu-per-satu, hingga bebas deadlock).
     * *Preempt* sumber daya dari proses (memungkinkan rollback dan restart proses).
 
+---
 ## 7. Manajemen Memori
 
 * **Konsep Dasar**:
@@ -388,6 +397,7 @@ Dosen Pengampu :
     * *Clock (Second Chance)*: Perbaikan LRU yang lebih murah—menggunakan bit referensi dan pointer melingkar.
   * *Thrashing*: Saat sistem terus-menerus melakukan page fault dan swapping, kinerja turun drastis; solusi lewat *working set model* dan pengaturan load multiprogramming.
 
+---
 ## 8. Sistem Berkas (File System)
 
 * **Konsep Dasar**:
@@ -414,6 +424,7 @@ Dosen Pengampu :
   * *Journaling File System* (mis. ext4, NTFS): Menyimpan catatan transaksi (journal) untuk mempercepat pemulihan setelah crash.
   * *Log-Structured File System*: Tulis semua data dan metadata dalam urutan log, mempercepat penulisan kecil namun memerlukan pengumpulan sampah (garbage collection).
 
+---
 ## 9. Manajemen Penyimpanan Sekunder
 
 * **Disk Structure & Penjadwalan**:
@@ -434,6 +445,7 @@ Dosen Pengampu :
     * *RAID 5*: Striping dengan parity tersebar—efisien di kapasitas & keandalan, membaca cepat, menulis lebih lambat karena perhitungan parity.
     * *RAID 6*: Mirip RAID 5, tapi dengan dua blok parity (toleransi dua disk mati).
 
+---
 ## 10. Sistem I/O (Input/Output)
 
 * **Hierarki I/O**:
@@ -449,6 +461,7 @@ Dosen Pengampu :
   * *Character Devices* (mis. keyboard, mouse) vs. *Block Devices* (mis. disk).
   * Buffering (penyangga data) dan caching (penyimpanan sementara) meningkatkan kinerja dan mengurangi akses fisik berulang.
 
+---
 ## 11. Keamanan dan Proteksi
 
 * **Proteksi (Protection)**:
@@ -474,6 +487,7 @@ Dosen Pengampu :
     * *Trusted Computing Base (TCB)*: Bagian OS yang dipercayai penuh; bug di TCB bisa berdampak besar.
     * *Mode Audit & Logging*: Mencatat aktivitas penting untuk deteksi intrusi dan forensik.
 
+---
 ## 12. Studi Kasus Sistem Operasi Nyata
 
 * **UNIX/Linux**:
@@ -491,6 +505,7 @@ Dosen Pengampu :
   * *Android*: Berbasis Linux Kernel, ditambah layer runtime (ART/Dalvik), framework aplikasi Java/Kotlin, dan middleware untuk manajemen daya & sumber daya mobile.
   * *macOS*: Berbasis XNU (hybrid kernel bergabung FreeBSD dan Mach), menggunakan HFS+ atau APFS sebagai sistem berkas dan menyediakan API Cocoa untuk aplikasi.
 
+---
 ## 13. Topik Lanjutan
 
 * **Virtualisasi & Mesin Virtual**:
