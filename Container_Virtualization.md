@@ -1,69 +1,63 @@
-# 🐳 Container Virtualization
+## Virtualisasi Container
 
-## 📘 Overview
+### Apa itu Virtualisasi Container?
 
-**Container virtualization** is a lightweight virtualization method that allows multiple isolated applications (called **containers**) to run on the same **operating system kernel**. Each container bundles the application with its dependencies but does not require a full guest OS like traditional virtual machines.
-
-This makes containers much **faster, smaller, and more efficient** — ideal for modern cloud and DevOps environments.
-
----
-
-## 🏗️ How It Works
-
-Containers use features of the host OS kernel such as:
-
-- **Namespaces**: Provide isolation for processes, users, networks, and file systems.
-- **cgroups (control groups)**: Limit and monitor CPU, memory, and I/O usage.
-- **Union file systems (e.g., OverlayFS)**: Enable image layering for efficiency.
-
-Unlike virtual machines (VMs), containers **share the host operating system kernel**, avoiding the need to boot a separate OS for each instance.
+**Virtualisasi container** adalah metode untuk menjalankan beberapa aplikasi secara **terpisah (terisolasi)** dalam satu sistem operasi (OS) yang sama.
+Setiap **container** membawa aplikasi dan semua hal yang dibutuhkannya (seperti library, konfigurasi, dll), tetapi **tidak perlu OS sendiri** seperti virtual machine. Container **berbagi kernel OS host**, sehingga lebih ringan dan cepat.
 
 ---
 
-## ⚖️ Containers vs Virtual Machines
+### Cara Kerja
 
-| Feature               | Containers                            | Virtual Machines (VMs)               |
-|-----------------------|----------------------------------------|--------------------------------------|
-| OS Kernel             | Shared with host                       | Separate per VM                      |
-| Boot Time             | Seconds                                | Minutes                              |
-| Resource Usage        | Low (lightweight)                      | High (includes full guest OS)        |
-| Performance           | Near-native                            | Slower due to hypervisor overhead    |
-| Isolation             | Process-level                          | Hardware-level (stronger)            |
-| Portability           | High                                   | Lower (OS-dependent)                 |
+Container menggunakan fitur dari kernel sistem operasi (biasanya Linux), seperti:
+
+* **Namespaces** → Mengisolasi proses, pengguna, jaringan, dan file antar container.
+* **cgroups (control groups)** → Mengatur berapa banyak sumber daya (CPU, memori) yang boleh digunakan oleh container.
+
+Karena tidak memerlukan OS sendiri, container bisa dijalankan dalam hitungan detik dan menggunakan sumber daya yang minimal.
 
 ---
 
-## 🔧 Key Tools
+### Keunggulan Container
 
-- **Container Engines**: Docker, Podman, containerd  
-- **Runtimes**: runc, CRI-O  
-- **Orchestration**: Kubernetes, Docker Swarm  
-
----
-
-## ✅ Benefits of Container Virtualization
-
-- ⚡ **Fast Startup** – Containers boot in seconds  
-- 📦 **Lightweight** – No need for a full OS per app  
-- 🔁 **Portable** – Runs on any system with container support  
-- ☁️ **Cloud-Ready** – Scales easily in Kubernetes or cloud platforms  
-- 🔐 **Isolated** – Each app runs in its own sandbox  
+* **Cepat**: Waktu startup hanya dalam beberapa detik
+* **Ringan**: Ukurannya kecil, tanpa OS tambahan
+* **Isolasi**: Aplikasi di dalam container tidak saling mempengaruhi
+* **Portabel**: Bisa dijalankan di mana saja (laptop, server, cloud)
 
 ---
 
-## 💡 Common Use Cases
+### Container Vs Virtual Machine
 
-- **Microservices architecture**  
-- **Continuous Integration / Continuous Deployment (CI/CD)**  
-- **Cloud-native application development**  
-- **Running multiple apps on the same machine without conflict**  
+| Aspek           | Container                    | Virtual Machine                  |
+| --------------- | ---------------------------- | -------------------------------- |
+| Kernel OS       | Berbagi dengan OS host       | Memiliki OS sendiri              |
+| Waktu Booting   | Sangat cepat (detik)         | Lebih lama (menit)               |
+| Ukuran          | Kecil (MB)                   | Besar (GB)                       |
+| Isolasi         | Proses-level                 | Level perangkat keras            |
+| Penggunaan Umum | Microservices, cloud, DevOps | Menjalankan OS berbeda, simulasi |
+
+---
+
+### Alat yang Sering Digunakan
+
+* **Docker**: Paling populer untuk membuat dan menjalankan container
+* **Podman**: Alternatif Docker tanpa perlu root
+* **Kubernetes**: Untuk mengatur banyak container dalam skala besar
+* **containerd** dan **runc**: Komponen inti untuk menjalankan container
 
 ---
 
-## 🧠 Summary
+### Contoh Penggunaan
 
-> **Container virtualization** is a modern and efficient alternative to traditional virtual machines. It allows developers and system administrators to deploy applications faster, more securely, and more flexibly using isolated environments that share the host OS kernel.
-
-It is the foundation of technologies like **Docker** and **Kubernetes**, and is widely used in modern infrastructure and software engineering.
+* Menjalankan web server secara terpisah tanpa bentrok port
+* Menguji aplikasi baru tanpa mengganggu sistem utama
+* CI/CD otomatis dalam DevOps
+* Deploy aplikasi berbasis microservices di cloud
 
 ---
+
+### Kesimpulan
+
+**Virtualisasi container** memungkinkan aplikasi berjalan secara efisien, terisolasi, dan portabel tanpa overhead besar seperti virtual machine.
+Ini adalah teknologi kunci dalam pengembangan perangkat lunak modern, terutama di era **cloud computing** dan **DevOps**.
