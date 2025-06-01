@@ -90,7 +90,3 @@ Dosen Pengampu : Dr Ferry Astika Saputra ST, M.Sc
 8. **Login Interface**
 
    * A graphical login manager (like `GDM`, `LightDM`, or Windows login screen) is presented, allowing the user to log in and start a user session.
-
----
-
-If you'd like, I can generate a visual version of this flowchart as an image. Would you like me to do that?
