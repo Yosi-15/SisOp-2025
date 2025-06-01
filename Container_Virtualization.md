@@ -60,4 +60,4 @@ Karena tidak memerlukan OS sendiri, container bisa dijalankan dalam hitungan det
 ### Kesimpulan
 
 **Virtualisasi container** memungkinkan aplikasi berjalan secara efisien, terisolasi, dan portabel tanpa overhead besar seperti virtual machine.
-Ini adalah teknologi kunci dalam pengembangan perangkat lunak modern, terutama di era **cloud computing** dan **DevOps**.
+Ini merupakan teknologi kunci dalam pengembangan perangkat lunak modern, terutama di era **cloud computing** dan **DevOps**.
