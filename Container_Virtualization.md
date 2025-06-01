@@ -1,3 +1,74 @@
+
+## Container Virtualization
+
+### What is Container Virtualization?
+
+**Container virtualization** is a method used to run multiple applications **separately (isolated)** on the same operating system (OS).
+Each **container** includes the application and all the dependencies it needs (such as libraries, configurations, etc.), but **does not require its own operating system** like a virtual machine. Containers **share the host OS kernel**, making them lightweight and fast.
+
+---
+
+### How It Works
+
+Containers use features provided by the host OS kernel (typically Linux), such as:
+
+* **Namespaces** → Isolate processes, users, networks, and files between containers.
+* **cgroups (control groups)** → Manage how much CPU, memory, and I/O each container can use.
+
+Because containers don’t run a full OS, they start up in seconds and use minimal system resources.
+
+---
+
+### Advantages of Containers
+
+* **Fast**: Startup time is only a few seconds
+* **Lightweight**: Small in size, no full OS included
+* **Isolated**: Applications in different containers do not interfere
+* **Portable**: Can run anywhere (laptops, servers, cloud)
+
+---
+
+### Container vs Virtual Machine
+
+| Aspect       | Container                    | Virtual Machine                  |
+| ------------ | ---------------------------- | -------------------------------- |
+| OS Kernel    | Shared with host OS          | Has its own OS                   |
+| Boot Time    | Very fast (seconds)          | Slower (minutes)                 |
+| Size         | Small (MBs)                  | Large (GBs)                      |
+| Isolation    | Process-level                | Hardware-level                   |
+| Common Usage | Microservices, cloud, DevOps | Running different OS, simulation |
+
+---
+
+### Common Tools
+
+* **Docker**: The most popular tool for building and running containers
+* **Podman**: Docker alternative that works without root
+* **Kubernetes**: Manages large-scale container deployments
+* **containerd** and **runc**: Core components used to run containers behind the scenes
+
+---
+
+### Example Use Cases
+
+* Running separate web servers without port conflicts
+* Testing new apps without affecting the main system
+* Automated CI/CD in DevOps pipelines
+* Deploying microservices-based applications in the cloud
+
+---
+
+### Conclusion
+
+**Container virtualization** allows applications to run efficiently, in isolated environments, and with minimal overhead compared to traditional virtual machines.
+It is a key technology in modern software development, especially in the era of **cloud computing** and **DevOps**.
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ## Virtualisasi Container
 
 ### Apa itu Virtualisasi Container?
