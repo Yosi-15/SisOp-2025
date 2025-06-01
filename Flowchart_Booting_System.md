@@ -5,7 +5,7 @@ Dosen Pengampu : Dr Ferry Astika Saputra ST, M.Sc
 
 ###  Flowchart Booting System
 
-```plaintext
+```
         +---------------------+
         | Power is Turned On |
         +---------------------+
@@ -52,7 +52,7 @@ Dosen Pengampu : Dr Ferry Astika Saputra ST, M.Sc
 
 ---
 
-### 📝 **Explanation of Booting Stages**
+### Explanation of Booting Stages
 
 1. **Power On**
 
