@@ -1,8 +1,9 @@
-**Nama:** Yosiyanti Cendekia Sari
-**NRP:** 3124500059 
-**Kelas:** D3 IT B  
+Nama  : Yosiyanti Cendekia Sari
+NRP   : 3124500059 
+Kelas : D3 IT B
+Dosen Pengajar :
 
-## Practice Exercises
+## Chapter-1 Practice Exercises
 
 ### 1.1 What are the three main purposes of an operating system?  
 **Answer:**  
