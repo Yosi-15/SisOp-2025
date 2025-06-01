@@ -259,9 +259,4 @@ Dosen Pengampu :
 
 ## Kesimpulan
 
-*Operating System Concepts* edisi ke-10 membahas **semua aspek fundamental** mulai dari pengantar, struktur, proses & thread, penjadwalan, sinkronisasi, deadlock, manajemen memori, I/O, sistem berkas, keamanan, hingga topik modern seperti virtualisasi dan cloud. Buku ini dirancang untuk:
-
-1. **Mahasiswa**: Memberikan dasar teoritis beserta ilustrasi studi kasus nyata (Linux, Windows).
-2. **Insinyur & Profesional IT**: Menjadi referensi dalam merancang atau memahami perilaku OS yang menggerakkan server, desktop, maupun perangkat mobile.
-
-Ringkasan di atas diharapkan memberikan gambaran yang mencakup **semua komponen penting** OS secara terstruktur dan mudah dipahami. Jika masih diperlukan detail lebih lanjut pada bagian tertentu (contoh algoritma spesifik, kode ilustrasi, atau studi kasus mendalam), silakan diinformasikan!
+*Operating System Concepts* edisi ke-10 membahas **semua aspek fundamental** mulai dari pengantar, struktur, proses & thread, penjadwalan, sinkronisasi, deadlock, manajemen memori, I/O, sistem berkas, keamanan, hingga topik modern seperti virtualisasi dan cloud. 
