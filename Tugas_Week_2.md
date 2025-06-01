@@ -2,7 +2,7 @@
 **NRP:** 3124500059   
 **Kelas:** 1 D3 IT B  
 
-## Practice Exercises
+## Chapter 1 - Practice Exercises
 
 ### 1.1 What are the three main purposes of an operating system?  
 **Answer:**  
