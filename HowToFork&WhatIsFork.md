@@ -1,3 +1,8 @@
+Nama  : Yosiyanti Cendekia Sari  
+NRP   : 3124500059  
+Kelas : D3 IT B  
+Dosen Pengajar : Dr Ferry Astika Saputra ST, M.Sc
+
 # Apa itu Forking?
 
 Forking adalah proses dalam sistem operasi di mana sebuah proses induk (parent process) membuat salinan dirinya sendiri. Proses hasil duplikasi ini disebut sebagai child process. Forking biasanya dilakukan menggunakan sistem call `fork()` yang tersedia dalam bahasa pemrograman C dan digunakan dalam sistem operasi berbasis Unix/Linux.
