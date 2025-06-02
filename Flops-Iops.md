@@ -1,3 +1,7 @@
+Nama  : Yosiyanti Cendekia Sari  
+NRP   : 3124500059  
+Kelas : D3 IT B  
+Dosen Pengajar : Dr Ferry Astika Saputra ST, M.Sc  
 
 
 # Benchmarking CPU dengan FLOPS-IOPS pada Ryzen 7 4000 Series
