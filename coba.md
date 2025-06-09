@@ -8,7 +8,7 @@ Dosen Pengajar : Dr Ferry Astika Saputra ST, M.Sc
 
 # Latihan
 
-## 1. 
+## 1. Apa itu ?
 
 - **Bilangan biner** adalah bilangan yang berbasis **dua**.
 - **Bilangan heksadesimal** adalah bilangan yang berbasis **enam belas**.
