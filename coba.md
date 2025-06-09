@@ -1,9 +1,9 @@
+Nama  : Yosiyanti Cendekia Sari  
+NRP   : 3124500059  
+Kelas : D3 IT B  
+Dosen Pengajar : Dr Ferry Astika Saputra ST, M.Sc  
+
 # Sistem Bilangan, Desimal, Biner, Oktal, dan Heksadesimal
-
-**Nama** : Tegar Aprilian Wibowo  
-**NRP** : 3124500049  
-**Kelas** : 1 D3 IT B  
-
 ---
 
 # Latihan
